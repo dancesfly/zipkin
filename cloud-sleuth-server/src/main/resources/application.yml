@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: sleuthServer
+  zipkin:
+    enabled: true
+  sleuth:
+    sampler:
+      percentage: 1.0
+server:
+  port: 9411
